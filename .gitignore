@@ -1,0 +1,34 @@
+# Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.env
+backend/.venv/
+backend/venv/
+backend/env/
+ENV/
+env/
+venv/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional large weights if not using Git LFS
+# (Uncomment below if using RESNET50_MODEL_URL instead of committing models)
+# backend/models/*.keras
+# backend/models/*.h5
